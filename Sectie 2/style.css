@@ -5,7 +5,15 @@ h1 {
 
 }
 h6 {
-    font-size: 60px;
+    font-size: 50px;
     color: blueviolet;
 
+
+}
+.main-text {
+
+}
+
+.big-text{
+    font-size: 19px;
 }
