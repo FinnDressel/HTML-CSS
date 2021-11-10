@@ -1,46 +1,14 @@
-.titel{
-    color: forestgreen;
-
-}
-
-.titel2{
+.titel, .titel2, .titel3, .titel4, .titel7, .titel8, .titel9{
     color: forestgreen;
 }
 
-.titel3{
-    color: forestgreen;
-}
-
-.titel4{
-    color: forestgreen;
-}
-
-.titel5{
+.titel5, .titel6{
     color: red;
 }
 
-.titel6{
-    color: red;
-}
-
-.titel9{
+.text, .text2{
     color: forestgreen;
 }
-
-.titel7{
-    color: forestgreen;
-}
-
-.titel8{
-    color: forestgreen;
-}
-
-.text{
-    color: forestgreen;
-    float: left;
-}
-
-
 
 .sneeuwtijger{
     padding: 5%;
@@ -49,4 +17,35 @@
 
 .tijger{
     border-radius: 50%;
+    width: 150px;
+    height: 100px;
+
+}
+
+.titel8 {
+    position: relative;
+    display: inline;
+    float: right;
+}
+
+.titel7{
+    display:block;
+    float:left;
+}
+
+.sectie5{
+    width:100%;
+    margin:0 auto;
+    display:inline-block;
+    text-align:center;
+}
+
+.sectie3{
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+.titel3{
+
 }
