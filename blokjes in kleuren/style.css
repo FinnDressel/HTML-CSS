@@ -1,0 +1,35 @@
+* {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto auto auto;
+    grid-gap: 0;
+    padding: 0;
+}
+
+.grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 50px;
+    font-size: 30px;
+}
+
+#one {
+    background-color: yellow;
+}
+
+#two {
+    background-color: red;
+}
+
+#three {
+    background-color: blue;
+}
+
+#four {
+    background-color: green;
+}
