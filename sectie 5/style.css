@@ -1,0 +1,38 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li{
+    float: left;
+}
+
+.groen{
+    display: block;
+    padding: 8px;
+    background-color: green;
+    color: black;
+}
+
+.geel{
+    display: block;
+    padding: 8px;
+    background-color: yellow;
+    color: black;
+}
+
+.rood{
+    display: block;
+    padding: 8px;
+    background-color: red;
+    color: black;
+}
+
+.blauw{
+    display: block;
+    padding: 8px;
+    background-color: blue;
+    color: black;
+}
