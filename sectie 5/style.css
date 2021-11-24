@@ -7,32 +7,42 @@ ul {
 
 li{
     float: left;
+    margin-right: 1%;
+    margin-bottom: 1%;
 }
 
-.groen{
+.groen {
     display: block;
-    padding: 8px;
     background-color: green;
     color: black;
+    width: 200px;
+    height: 20px;
+    text-align: center;
 }
 
-.geel{
+.geel {
     display: block;
-    padding: 8px;
     background-color: yellow;
     color: black;
+    width: 200px;
+    height: 20px;
+    text-align: center;
 }
 
-.rood{
+.rood {
     display: block;
-    padding: 8px;
     background-color: red;
     color: black;
+    width: 200px;
+    height: 20px;
+    text-align: center;
 }
 
-.blauw{
+.blauw {
     display: block;
-    padding: 8px;
     background-color: blue;
     color: black;
+    width: 200px;
+    height: 20px;
+    text-align: center;
 }
