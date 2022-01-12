@@ -1,0 +1,31 @@
+.flex-container2{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ffd15e;
+    justify-content: center;
+}
+
+.flex-container2 > div {
+    background-color: #00ff73;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+.Home{
+    border-style: solid;
+}
+
+.Profile{
+    border-style: solid;
+}
+
+.Search{
+    border-style: solid;
+}
+
+.Logout{
+    border-style: solid;
+}
