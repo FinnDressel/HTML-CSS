@@ -9,9 +9,36 @@
 <body>
 <h1>Flexbox</h1>
 <div class="flex-container">
-  <div>1</div>
-  <div>2</div>
-  <div>3</div>
+  <div class="container-properties">container properties <br>
+  <p class="dikgedrukt">//Creates a flexbox</p>
+  <p>display: flex;</p>
+  <p class="dikgedrukt">//direction, establishes main-axis</p>
+  <p>flex-direction: row || row-revers || column || colomn-reverse</p>
+  <p class="dikgedrukt">//to wrap or not to wrap</p>
+  <p>flex-wrap: flex-direction flex wrap</p>
+  <p class="dikgedrukt">//alignmement main axis</p>
+  <p>justify-content: flex-start || flex-end || center || space-between || space-around || space-evenly</p>
+  <p class="dikgedrukt">//alignement cross axis</p>
+  <p>align-items: stretch || flex-start || flex-end || center || baseline</p>
+  <p class="dikgedrukt">//alignement lines within the container</p>
+  <p>align-content: normal || flex-start || flex-end || center || space-between || space-around || space-evenly|| stretch</p>
+  </div>
+  <div class="item-properties">item properties
+      <p class="dikgedrukt">//order of the (flex) html-elements</p>
+      <p>order: integer (default: 0)</p>
+      <p class="dikgedrukt">//ability to grow if necessary</p>
+      <p>flex-grow: integer (default: 0)</p>
+      <p class="dikgedrukt">//ability to shrink if necessary</p>
+      <p>flex-shrink: positive integer (default: 1)</p>
+      <p class="dikgedrukt">//defines default size of the item</p>
+      <p>flex-basis: lenght || keyword (default: auto)</p>
+      <p class="dikgedrukt">//shorthanded (grow shrink basis)</p>
+      <p>flex: flex-grow flex-shrink flex-basis (default 0 1 auto)</p>
+      <p class="dikgedrukt">//override default alignment from align-items</p>
+      <p>align-self: auto || flex-start || flex-end || center || baseline || stretch</p>
+  </div>
+
+
 </div>
 
 </body>

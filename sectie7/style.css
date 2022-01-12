@@ -1,0 +1,50 @@
+h1{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 100px;
+    text-align: center;
+}
+
+p{
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    font-size: large;
+    border-style: dotted;
+}
+
+
+
+.flex-container{
+    display: flex;
+    background-color: #ffde85;
+    justify-content: center;
+    border-style: dashed;
+}
+
+.flex-container > div{
+    background-color: #ffbbde;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    border-style: solid;
+    border-color: black;
+}
+
+.container-properties{
+    text-align: center;
+    color: gray;
+    font-family: 'Roboto Mono', monospace;
+    border-style: dotted;
+}
+
+.item-properties{
+    text-align: center;
+    color: gray;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.dikgedrukt{
+    color: black;
+    font-weight: bold;
+    background-color: #f975ff;
+}
+
