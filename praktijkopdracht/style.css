@@ -1,0 +1,65 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.HOME {
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.IMG-1{
+    background-image: url("IMG/812.jpg") ;
+}
+.IMG-2{
+    background-image: url("IMG/svj.jpg");
+}
+.IMG-3{
+    background-image: url("IMG/jesko.jpg");
+}
+.IMG-4{
+    background-image: url("IMG/720s.jpg");
+}
+
+.Grote-Tekst {
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.4);
+    color: white;
+    font-weight: bold;
+    font-size: 80px;
+    border: 10px solid #f1f1f1;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar{
+    overflow: hidden;
+    background-color: #ff8530;
+}
+
+.navbar a{
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover{
+    background-color: black;
+    color: white;
+}
