@@ -78,3 +78,58 @@ a:hover{
     color: black;
     text-align: center;
 }
+
+.container{
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    background-color: white;
+    padding: 10px;
+}
+
+.container > img{
+    border: 1px solid black;
+    max-width: 100%;
+}
+
+.container-img {
+    position: relative;
+    width: 50%;
+}
+
+img {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle  {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.container-img:hover .image {
+    opacity: 0.3;
+}
+
+.container-img:hover .middle {
+    opacity: 1;
+}
+
+.text  a{
+    background-color: #ff8530;
+    color: black;
+    font-size: 16px;
+    padding: 16px 32px;
+    text-decoration: none;
+}
