@@ -8,6 +8,16 @@ body, html {
     box-sizing: border-box;
 }
 
+footer {
+    width: 100%;
+    background-color: #ff8530;
+    color: black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .navbar{
     overflow: hidden;
     background-color: #ff8530;
@@ -69,16 +79,6 @@ a:hover{
     display: block;
 }
 
-footer {
-    width: 100%;
-    background-color: #ff8530;
-    color: black;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .container{
     position: relative;
     font-family: Arial, monospace;
@@ -90,10 +90,7 @@ footer {
     bottom: 20px;
     right: 20px;
     background-color: transparent;
-    color: green;
+    color: black;
     padding-left: 20px;
     padding-right: 20px;
 }
-
-
-

@@ -106,14 +106,14 @@ a:hover{
     display: block;
 }
 
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
+footer {
     width: 100%;
     background-color: #ff8530;
     color: black;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .row{
