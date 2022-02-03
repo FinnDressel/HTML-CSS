@@ -1,0 +1,30 @@
+.flex-container {
+    display: flex;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+#home{
+    background-color: red;
+}
+
+#diensten{
+    background-color: blue;
+}
+
+#producten{
+    background-color: purple;
+}
+
+#team{
+    background-color: yellow;
+}
+
+#werkwijze{
+    background-color: green;
+}
+
+#contact{
+background-color: pink;
+}

@@ -46,13 +46,13 @@ body, html {
 }
 
 .navbar{
-    overflow: hidden;
-    background-color: #ff8530;
-    display: flex;
-    margin: 0 auto;
-    padding: 10px 0;
-    justify-content: center;
-}
+     overflow: hidden;
+     background-color: #ff8530;
+     display: flex;
+     margin: 0 auto;
+     padding: 10px 0;
+     justify-content: center;
+ }
 
 .navbar a{
     color: black;
